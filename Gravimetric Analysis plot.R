@@ -56,7 +56,7 @@ Plot_Fun<- function(i) {
     ylim(0,0.3)+
     scale_color_brewer(palette="Paired")+theme_minimal()
   
-  ggsave(p, file=paste0("Actinobacteria_Growth_Curve_", i-1,".png"), width = 14, height = 10, units = "cm")
+  ggsave(p, file=paste("Actinobacteria_Growth_Curve_", i-1,".png"), width = 14, height = 10, units = "cm")
   #print(p)
   
 }
